@@ -4,7 +4,6 @@ This repository contains the Google App Script code used for assigning a unique 
 ## Warning / Issues
 - A major portion of the script was written by me, a total noob in Google App Script or JavaScript within a week using pieces from documentation and examples in 2019, when the previous registration portal had a SQL error.
 - This is not user friendly to deploy and edit. Some basic HTML knowledge is required for editing emails. Still better than the previous registration portal.
-- Currently the code has a max limit of 1500 entries.
 - The code contains no comments because I was(am) a dumbass.
 - This script has a "It just works philosophy" and isn't designed for efficiency.
 - The job of "maintaining" the portal was undertaken by me in 2020 so I didn't bother changing it as long as I can make the necessary changes.

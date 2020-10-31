@@ -1,7 +1,7 @@
 function team_no() { //Assigns TeamID by looking at centre name
   var sheet = SpreadsheetApp.getActiveSheet();
   var startRow = 2;  // First row of data to process
-  var numRows = 1500;   // Number of rows to process
+  var numRows = sheet.getLastRow()-1;   // Number of rows to process
 
   // Fetch the range of cells A2:AH1000
   var dataRange = sheet.getRange(startRow, 1, numRows, 35)

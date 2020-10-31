@@ -1,7 +1,7 @@
 function send_feedback() { //sends email asking for feedback about the exam
   var sheet = SpreadsheetApp.getActiveSheet();
   var startRow = 2;  // First row of data to process
-  var numRows = 1500;   // Number of rows to process(1000 would be good, keep at 1 for testing purposes)
+  var numRows = sheet.getLastRow()-1;   // Number of rows to process
 
   // Fetch the range of cells A2:AE5
   var dataRange = sheet.getRange(startRow, 1, numRows, 35)
