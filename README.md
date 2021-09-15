@@ -1,5 +1,7 @@
-# Mimamsa-Reg-portal
-This repository contains the Google App Script code used for assigning a unique (hopefully) team ID and sending confirmation mail on submission of details in the linked google form, the [Mimamsa](http://mimamsa.iiserpune.ac.in) Registration Portal. Currently, this is a code dump of whatever was used for Mimamsa 2020 with all personal details removed. I shall try to make it better in upcoming versions.
+# Mimamsa-Reg-portal [DEPRECATED]
+This repository contains the Google App Script code used for assigning a unique (hopefully) team ID and sending confirmation mail on submission of details in the linked google form, the [Mimamsa](http://mimamsa.iiserpune.ac.in) Registration Portal. Currently, this is a code dump of whatever was used for Mimamsa 2020 with all personal details removed. 
+
+# IMPORTANT: DO NOT use this for anything production related. This repo is only present for archival purposes. Please contact the current coordinators or coordinators^ for the latest implementation of the registration portal
 
 ## Warning / Issues
 - A major portion of the script was written by me, a total noob in Google App Script or JavaScript within a week using pieces from documentation and examples in 2019, when the previous registration portal had a SQL error.
@@ -12,7 +14,7 @@ This repository contains the Google App Script code used for assigning a unique 
 ## Instructions
 ### Pre-Requisites
 - A working Google Form with a linked Google Sheet. One may choose to clone the previous year's form.
-- A Google Sheet with a layout same as in [template](template/template.csv).
+- A Google Sheet with a layout same as in [template](./template/template.csv).
   - You'll need to add columns AE:AJ, if you're cloning the previous year's form.
   - If the layout doesn't match you'll need to edit the codes.
 ### Deployment of Main Portal (Team ID and Confirmation Mail)
@@ -44,8 +46,3 @@ This repository contains the Google App Script code used for assigning a unique 
 ### Deployment of Feedback email
 - This is not recommended as it can be easily send by copy pasting all emails as bcc. You may run out of Email Quota on that day through this method.
 - If you still want to proceed follow the same steps as Venue email.
-## For those not part of Team Mimamsa
-- Why are you here?
-- You'll need to modify a lot to suit your needs. You'll find better stuff elsewhere.
-- If you're a Mimamsa Enthusiast, GO AWAY..... SHOOOO....
-- If you find any flaws or have any suggestions, please open an issue.
